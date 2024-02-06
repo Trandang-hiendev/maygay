@@ -17,9 +17,9 @@ module.exports = {
     const embed = {
       title: "MongoDB URL Generator",
       description: "",
-      color: 0x00FF00, // Green color
+      color: FFD7D5, // Green color
       footer: {
-        text: "Made By Ghost Planet",
+        text: "Made By KayT",
         icon_url: interaction.client.user.avatarURL(), // Use the bot's avatar URL
       },
     };
