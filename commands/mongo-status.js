@@ -52,7 +52,7 @@ module.exports = {
           description: 'MongoDB is offline.',
           color: 0xFF0000, // Red color
           footer: {
-            text: "Made By Ghost Planet",
+            text: "Made By KayT",
             icon_url: interaction.client.user.avatarURL(), // Use the bot's avatar URL
           },
         };
