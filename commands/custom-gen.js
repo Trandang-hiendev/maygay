@@ -8,11 +8,11 @@ module.exports = {
     .setDescription('Generate a MongoDB')
     .addStringOption(option =>
       option.setName('username')
-        .setDescription('Your desired username for the MongoDB')
+        .setDescription('Tên bạn muốn')
         .setRequired(true))
     .addStringOption(option =>
       option.setName('password')
-        .setDescription('Your desired password for the MongoDB')
+        .setDescription('Mật khẩu')
         .setRequired(true)),
   async execute(interaction) {
     const user = interaction.user;
